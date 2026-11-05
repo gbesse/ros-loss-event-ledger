@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "id": "e1",
+      "time": 1,
+      "lost": {
+        "/camera": 2
+      }
+    },
+    {
+      "id": "e2",
+      "time": 2,
+      "lost": {
+        "/camera": 3
+      }
+    },
+    {
+      "id": "e2",
+      "time": 2,
+      "lost": {
+        "/camera": 3
+      }
+    }
+  ],
+  "coverage_complete": false
+}

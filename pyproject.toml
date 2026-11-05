@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ros-loss-event-ledger"
+version = "0.1.0a1"
+description = "FR: Additionner les pertes ROS incrémentales sans inventer les silences | EN: Accumulate incremental ROS losses without inventing silent intervals | ES: Acumular pérdidas ROS incrementales sin inventar intervalos silenciosos"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+ros-loss-event-ledger = "ros_loss_event_ledger.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["ros_loss_event_ledger*"]

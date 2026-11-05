@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Additionner les pertes ROS incrémentales sans inventer les silences', 'en': 'Accumulate incremental ROS losses without inventing silent intervals', 'es': 'Acumular pérdidas ROS incrementales sin inventar intervalos silenciosos'}
